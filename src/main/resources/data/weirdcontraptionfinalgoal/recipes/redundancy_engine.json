@@ -1,0 +1,25 @@
+{
+	"type": "create:mechanical_crafting",
+	"pattern": [
+		" PCP ",
+		"SESES",
+		" PCP "
+	],
+	"key": {
+		"S": {
+			"item": "tfmg:steel_ingot"
+		},
+		"E": {
+			"item": "tfmg:large_radial_engine"
+		},
+		"C": {
+			"item": "create:brass_casing"
+		},
+		"P": {
+			"item": "create:brass_sheet"
+		}
+	},
+	"result": {
+		"item": "weirdcontraptionfinalgoal:redundancy_engine"
+	}
+}

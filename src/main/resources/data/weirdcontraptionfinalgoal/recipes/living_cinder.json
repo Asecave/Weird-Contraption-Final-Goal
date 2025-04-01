@@ -1,0 +1,18 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "create:cinder_flour"
+    },
+    {
+      "amount": 1000,
+      "fluid": "biofactory:nutrients_fluid"
+    }
+  ],
+  "results": [
+    {
+      "item": "weirdcontraptionfinalgoal:living_cinder",
+      "count": 1
+  	}
+  ]
+}

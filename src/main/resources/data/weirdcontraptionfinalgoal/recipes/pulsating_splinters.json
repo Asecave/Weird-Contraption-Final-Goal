@@ -1,0 +1,18 @@
+{
+	"type": "create:compacting",
+	"ingredients": [
+		{
+			"item": "create:polished_rose_quartz"
+		},
+		{
+			"fluid": "create_enchantment_industry:experience",
+			"amount": 250
+		}
+	],
+	"results": [
+		{
+			"item": "weirdcontraptionfinalgoal:pulsating_splinters",
+			"amount": 1
+		}
+	]
+}

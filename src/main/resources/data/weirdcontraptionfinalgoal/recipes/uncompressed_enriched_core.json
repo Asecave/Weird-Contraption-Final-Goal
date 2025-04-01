@@ -1,0 +1,22 @@
+{
+	"type": "create:mechanical_crafting",
+	"pattern": [
+		"  L  ",
+		"SLELS",
+		"  L  "
+	],
+	"key": {
+		"L": {
+			"item": "weirdcontraptionfinalgoal:living_cinder"
+		},
+		"E": {
+			"item": "minecraft:end_crystal"
+		},
+		"S": {
+			"item": "create:sturdy_sheet"
+		}
+	},
+	"result": {
+		"item": "weirdcontraptionfinalgoal:uncompressed_enriched_core"
+	}
+}

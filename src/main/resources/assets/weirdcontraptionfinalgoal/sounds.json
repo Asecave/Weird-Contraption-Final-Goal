@@ -1,0 +1,20 @@
+{
+	"resonance_engine_starting": {
+		"subtitles": "sounds.weirdcontraptionfinalgoal.resonance_engine_starting",
+		"sounds": [
+			"weirdcontraptionfinalgoal:resonance_engine_starting"
+		]
+	},
+	"resonance_engine_loop": {
+		"subtitles": "sounds.weirdcontraptionfinalgoal.resonance_engine_loop",
+		"sounds": [
+			"weirdcontraptionfinalgoal:resonance_engine_loop"
+		]
+	},
+	"resonance_engine_shutdown": {
+		"subtitles": "sounds.weirdcontraptionfinalgoal.resonance_engine_shutdown",
+		"sounds": [
+			"weirdcontraptionfinalgoal:resonance_engine_shutdown"
+		]
+	}
+}

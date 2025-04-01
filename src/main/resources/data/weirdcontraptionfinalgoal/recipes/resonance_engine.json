@@ -1,0 +1,35 @@
+{
+	"type": "create:mechanical_crafting",
+	"pattern": [
+		" L L ",
+		"SPGPS",
+		"SECES",
+		"SPRPS"
+	],
+	"key": {
+		"L": {
+			"item": "minecraft:lightning_rod"
+		},
+		"E": {
+			"item": "weirdcontraptionfinalgoal:echo_rod"
+		},
+		"S": {
+			"item": "create:sturdy_sheet"
+		},
+		"P": {
+			"item": "weirdcontraptionfinalgoal:pulsating_rose_quartz"
+		},
+		"G": {
+			"item": "create:vertical_gearbox"
+		},
+		"C": {
+			"item": "weirdcontraptionfinalgoal:enriched_core"
+		},
+		"R": {
+			"item": "weirdcontraptionfinalgoal:redundancy_engine"
+		}
+	},
+	"result": {
+		"item": "weirdcontraptionfinalgoal:resonance_engine"
+	}
+}

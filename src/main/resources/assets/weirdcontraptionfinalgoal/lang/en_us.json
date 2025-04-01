@@ -1,0 +1,24 @@
+{
+	"item.weirdcontraptionfinalgoal.living_cinder": "Living Cinder",
+	"item.weirdcontraptionfinalgoal.pulsating_splinters": "Pulsating Splinters",
+	"item.weirdcontraptionfinalgoal.pulsating_rose_quartz": "Pulsating Rose Quartz",
+	"item.weirdcontraptionfinalgoal.echo_rod": "Echo Rod",
+	"item.weirdcontraptionfinalgoal.redundancy_engine": "Redundancy Engine",
+	"item.weirdcontraptionfinalgoal.uncompressed_enriched_core": "Uncompressed Enriched Core",
+	"item.weirdcontraptionfinalgoal.enriched_core": "Enriched Core",
+	"item.weirdcontraptionfinalgoal.unfinished_pulsating_rose_quartz": "Unfinished Pulsating Rose Quartz",
+	
+	"block.weirdcontraptionfinalgoal.resonance_engine": "Resonance Engine",
+	"block.weirdcontraptionfinalgoal.engine_casing": "Engine Casing",
+	
+	"sounds.weirdcontraptionfinalgoal.resonance_engine_starting": "Resonance Engine Starting",
+	"sounds.weirdcontraptionfinalgoal.resonance_engine_loop": "Resonance Engine Humming",
+	"sounds.weirdcontraptionfinalgoal.resonance_engine_shutdown": "Resonance Engine Stopping",
+	
+	"creativetab.wcfg_tab": "Weird Contraption: Final Goal",
+	
+	"messages.weirdcontraptionfinalgoal.incomplete_message": "Fill the highlighted area with Engine Casing",
+	
+	"tooltip.weirdcontraptionfinalgoal.resonance_engine_summary1": "Requires a structure with",
+	"tooltip.weirdcontraptionfinalgoal.resonance_engine_summary2": "20 Engine Casing to start."
+}

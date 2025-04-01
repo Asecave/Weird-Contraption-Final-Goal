@@ -1,0 +1,37 @@
+{
+	"type": "create:mechanical_crafting",
+	"pattern": [
+		"  S  ",
+		" BSB ",
+		" III ",
+		"CPEPC",
+		"IEEEI",
+		"CPEPC",
+		" III ",
+		" BSB ",
+		"  S  "
+	],
+	"key": {
+		"S": {
+			"item": "tfmg:steel_ingot"
+		},
+		"B": {
+			"item": "create:brass_casing"
+		},
+		"I": {
+			"item": "tfmg:cast_iron_ingot"
+		},
+		"C": {
+			"item": "create:minecart_coupling"
+		},
+		"P": {
+			"item": "create:sturdy_sheet"
+		},
+		"E": {
+			"item": "create_deep_dark:echo_ingot"
+		}
+	},
+	"result": {
+		"item": "weirdcontraptionfinalgoal:echo_rod"
+	}
+}

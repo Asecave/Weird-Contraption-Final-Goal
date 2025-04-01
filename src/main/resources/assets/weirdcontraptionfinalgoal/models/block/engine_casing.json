@@ -1,0 +1,7 @@
+{
+	"parent": "minecraft:block/cube_column",
+	"textures": {
+		"end": "weirdcontraptionfinalgoal:block/engine_casing",
+		"side": "weirdcontraptionfinalgoal:block/engine_casing_side"
+	}
+}

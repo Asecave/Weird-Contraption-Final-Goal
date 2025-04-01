@@ -1,0 +1,63 @@
+{
+	"type": "create:sequenced_assembly",
+	"ingredient": {
+		"item": "create:rose_quartz"
+	},
+	"loops": 16,
+	"results": [
+		{
+			"item": "weirdcontraptionfinalgoal:pulsating_rose_quartz"
+		}
+	],
+	"sequence": [
+		{
+			"type": "create:deploying",
+			"ingredients": [
+				{
+					"item": "weirdcontraptionfinalgoal:unfinished_pulsating_rose_quartz"
+				},
+				{
+					"item": "weirdcontraptionfinalgoal:pulsating_splinters"
+				}
+			],
+			"results": [
+				{
+					"item": "weirdcontraptionfinalgoal:unfinished_pulsating_rose_quartz"
+				}
+			]
+		},
+		{
+			"type": "create:filling",
+			"ingredients": [
+				{
+					"item": "weirdcontraptionfinalgoal:unfinished_pulsating_rose_quartz"
+				},
+				{
+					"fluid": "create_enchantment_industry:hyper_experience",
+					"amount": 100
+				}
+			],
+			"results": [
+				{
+					"item": "weirdcontraptionfinalgoal:unfinished_pulsating_rose_quartz"
+				}
+			]
+		},
+		{
+			"type": "create:pressing",
+			"ingredients": [
+				{
+					"item": "weirdcontraptionfinalgoal:unfinished_pulsating_rose_quartz"
+				}
+			],
+			"results": [
+				{
+					"item": "weirdcontraptionfinalgoal:unfinished_pulsating_rose_quartz"
+				}
+			]
+		}
+	],
+	"transitionalItem": {
+		"item": "weirdcontraptionfinalgoal:unfinished_pulsating_rose_quartz"
+	}
+}

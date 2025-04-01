@@ -1,0 +1,14 @@
+{
+    "type": "create:pressing",
+    "ingredients": [
+    	{
+    		"item": "weirdcontraptionfinalgoal:uncompressed_enriched_core"
+    	}
+    ], 
+	"results": [
+		{
+			"item": "weirdcontraptionfinalgoal:enriched_core",
+			"count": 1
+		}
+	]
+}

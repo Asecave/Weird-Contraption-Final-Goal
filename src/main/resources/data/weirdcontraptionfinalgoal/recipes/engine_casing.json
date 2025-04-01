@@ -1,0 +1,18 @@
+{
+  "type": "create:filling",
+  "ingredients": [
+    {
+      "item": "create:railway_casing"
+    },
+    {
+      "amount": 500,
+      "fluid": "create_deep_dark:molten_echo"
+    }
+  ],
+  "results": [
+    {
+      "item": "weirdcontraptionfinalgoal:engine_casing",
+      "count": 1
+  	}
+  ]
+}
