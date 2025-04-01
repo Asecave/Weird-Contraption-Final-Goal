@@ -43,12 +43,12 @@ description='''${mod_description}'''
     ordering = "NONE"
     side = "BOTH"
     
-#[[dependencies.${ mod_id }]]
-#    modId = "tfmg"
-#    mandatory = false
-#    versionRange = "${create_tfmg_version_range}"
-#    ordering = "NONE"
-#    side = "BOTH"
+[[dependencies.${ mod_id }]]
+    modId = "tfmg"
+    mandatory = false
+    versionRange = "${create_tfmg_version_range}"
+    ordering = "NONE"
+    side = "BOTH"
     
 [[dependencies.${ mod_id }]]
     modId = "create_deep_dark"
