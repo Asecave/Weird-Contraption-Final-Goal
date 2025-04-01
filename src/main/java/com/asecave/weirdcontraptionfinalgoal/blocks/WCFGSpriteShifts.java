@@ -19,6 +19,6 @@ public class WCFGSpriteShifts {
 	}
 
 	private static ResourceLocation asResource(String name) {
-		return ResourceLocation.fromNamespaceAndPath(WeirdContraptionFinalGoal.MODID, name);
+		return new ResourceLocation(WeirdContraptionFinalGoal.MODID, name);
 	}
 }

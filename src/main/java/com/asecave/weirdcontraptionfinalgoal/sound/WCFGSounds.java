@@ -30,7 +30,7 @@ public class WCFGSounds {
 
 	private static RegistryObject<SoundEvent> registerSoundEvents(String name) {
 		return SOUND_EVENTS.register(name, () -> SoundEvent.createVariableRangeEvent(
-				ResourceLocation.fromNamespaceAndPath(WeirdContraptionFinalGoal.MODID, name)));
+				new ResourceLocation(WeirdContraptionFinalGoal.MODID, name)));
 	}
 
 	public static void register(IEventBus eventBus) {

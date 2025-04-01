@@ -11,7 +11,6 @@ import net.minecraft.resources.ResourceKey;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
-import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
@@ -26,12 +25,12 @@ public class WeirdContraptionFinalGoal {
 	public static final CreateRegistrate CREATE_REGISTRATE = CreateRegistrate.create(MODID)
 			.defaultCreativeTab((ResourceKey<CreativeModeTab>) null);
 
-	public WeirdContraptionFinalGoal(FMLJavaModLoadingContext context) {
-		IEventBus modEventBus = context.getModEventBus();
-		
-		WCFGCreativeTabs.register(modEventBus);
+	public WeirdContraptionFinalGoal() {
+		IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
 		CREATE_REGISTRATE.registerEventListeners(modEventBus);
+
+		WCFGCreativeTabs.register(modEventBus);
 		WCFGItems.register();
 		WCFGBlocks.register();
 		WCFGBlockEntities.register();
@@ -39,15 +38,10 @@ public class WeirdContraptionFinalGoal {
 		modEventBus.addListener(this::commonSetup);
 
 		MinecraftForge.EVENT_BUS.register(this);
-		modEventBus.addListener(this::addCreative);
 	}
 
 	private void commonSetup(final FMLCommonSetupEvent event) {
 
-	}
-	
-	private void addCreative(BuildCreativeModeTabContentsEvent event) {
-		
 	}
 
 	@Mod.EventBusSubscriber(modid = MODID, bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
